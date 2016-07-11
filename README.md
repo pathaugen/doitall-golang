@@ -1,11 +1,13 @@
 
-Project Readme
-==============
+Do it all! in Golang
+====================
 
 Description
 -----------
 
-Quiick Start
+Simple project to provide code to do just about anything in Go.
+
+Quick Start
 ------------
 
 Features
