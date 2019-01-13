@@ -5,18 +5,28 @@
 
 ***
 
-## 1.0.0 - YYYY-MM-DD
+## 1.0.0 - 2019-01-13
 
 ### Added
-
+Version 0.0.2
 * x
 
 ### Changed
 
-* x
-
 ### Fixed
 
-* x
+***
+
+## 1.0.0 - 2019-01-12
+
+### Added
+Version 0.0.1
+* Splash ASCII
+* Basic functions
+* Reading flags from command line
+
+### Changed
+
+### Fixed
 
 ***

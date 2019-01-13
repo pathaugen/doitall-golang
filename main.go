@@ -20,51 +20,9 @@ var appinfo = `
   =======================================
 `
 
+// Pull changelog.md and display
 
-// TODO: Read from CHANGELOG.md and output the text
-var changelog = `
-CHANGELOG:
-
-Version 0.0.1 BETA
- - Splash ASCII
- - Basic functions
- - Reading flags from command line
-`
-
-
-var documentation = `
-$ doitall-golang
-  Runs the application.
-
-$ doitall-golang -changelog
-  View the changelog.
-
----------- Math Operations ----------
-
-  Addition:
-  $ doitall-golang -add X Y
-    Adds the variables X and Y
-
-  Subtraction:
-  $ doitall-golang -sub X Y
-    Adds the variables X and Y
-
-  Multiplication:
-  $ doitall-golang -mult X Y
-    Adds the variables X and Y
-
-  Division:
-  $ doitall-golang -div X Y
-    Adds the variables X and Y
-
----------- API Operations ----------
-
-  Define API Endpoint:
-  $ doitall-golang -api X
-    Specifies X as the API endpoint to utilize for API operations.
-
-`
-
+// Pull readme.md as documenation and display
 
 func add(x int, y int) int {
 	return x + y
@@ -118,6 +76,10 @@ func main() {
 	// Load JSON into Array
 	fmt.Print("Load JSON into Array:" + breakspace)
 	// ========== ========== ========== ========== ==========
+
+
+	// Reorder Array Alphabetically
+
 
 	fmt.Print(breakline)
 
