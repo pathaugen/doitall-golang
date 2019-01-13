@@ -24,21 +24,22 @@ var appinfo = `
 
 // Pull readme.md as documenation and display
 
-func add(x int, y int) int {
-	return x + y
-}
-
 
 func main() {
-
 	breakline := ("\n\n" + "========== ========== ========== ========== ==========" + "\n\n")
-	breakspace := ("\n\n")
+	breakspace := ("\n")
 
-	fmt.Print(breakspace)
+	// ========== ========== ========== ========== ==========
+	// Take Command Line Arguments
+	// fmt.Print("Take Command Line Arguments:" + breakspace)
+	// ========== ========== ========== ========== ==========
 
-	fmt.Print("Do it all in Golang!")
-	fmt.Print(breakspace)
-	fmt.Print("https://github.com/pathaugen/doitall-golang")
+	fmt.Print(
+		appinfo +
+		breakspace +
+		"Do it all in Golang!" +
+		breakspace +
+		"https://github.com/pathaugen/doitall-golang"	)
 
 	fmt.Print(breakline)
 
@@ -61,13 +62,6 @@ func main() {
 		fmt.Print("sum: " + strconv.Itoa(sum) + "\n")
 	}
 	fmt.Print("Final sum: " + strconv.Itoa(sum))
-	// ========== ========== ========== ========== ==========
-
-	fmt.Print(breakline)
-
-	// ========== ========== ========== ========== ==========
-	// Take Command Line Arguments
-	fmt.Print("Take Command Line Arguments:" + breakspace)
 	// ========== ========== ========== ========== ==========
 
 	fmt.Print(breakline)
