@@ -25,14 +25,31 @@ Quick Start
 
 1. Install Go:
    * https://golang.org/dl/
+   * Recommend C:\Go on Windows
    * Test Go Installation:
      * > go version
 2. Setup Go:
+   * Create File Structure:
+     * C:\go-work\bin
+     * C:\go-work\pkg
+     * C:\go-work\src
+   * Check Environment Variables:
+     * GOROOT: C:\Go
+     * GOPATH: C:\go-work
+3. Setup Git:
+   * Install Git:
+   * x
+x. Test Code:
+   * > go test -v
    * xxx
+x. Check Documentation:
+   * > godoc -http=:6060
+   * http://localhost:6060/pkg/
+     * All code in $GOPATH (which includes stdlib) appears in web interface.
 
 ---------- Compile and Run the Application ----------
 
-$ x
+$ go build
   Compiles the application.
 
 $ doitall-golang
