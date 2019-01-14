@@ -2,19 +2,8 @@
 Roadmap to v1.0.0 :
 ===================
 
-- [ ] x
-- [X] x
-- [ ] x
-- [ ] x
-  - [X] x
-  - [X] x
-  - [ ] x
-    - x
-    - x
+Any possibility in Golang not covered already will be put here on the TODO:
 
-- [ ] x
-  - [X] x
-  - [X] x
-  - [ ] x
+- [ ] Find more Golang tasks to add
 
 ***
