@@ -1,6 +1,9 @@
 
 Do it all! in Golang
 ====================
+[![CircleCI](https://circleci.com/gh/pathaugen/doitall-golang.svg?style=svg)](https://circleci.com/gh/pathaugen/doitall-golang)
+[![Build Status](https://travis-ci.com/pathaugen/doitall-golang.svg?branch=master)](https://travis-ci.com/pathaugen/doitall-golang)
+[![Coverage Status](https://coveralls.io/repos/github/pathaugen/doitall-golang/badge.svg?branch=master)](https://coveralls.io/github/pathaugen/doitall-golang?branch=master)
 
 Description
 -----------

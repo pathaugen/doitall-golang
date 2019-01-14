@@ -28,39 +28,35 @@ import (
 // - pull json and parse out, putting into struct first and utilizing there
 
 
-
 // Pull changelog.md and display
 
 // Pull readme.md as documenation and display
 
 
-
-
-// ========== ========== ========== ========== ==========
-// Colors
+// ========== START: Golang Console Colors ========== ========== ========== ==========
 // Example: fmt.Print( cRed + "HelloWorld" + cClr )
-var cClr = "\u001b[0m"
+var cClr				= "\u001b[0m"
 
-var cBold = "\u001b[1m"
+var cBold				= "\u001b[1m"
 
-var cBlack = "\u001b[30m"
-var cRed = "\u001b[31m"
-var cGreen = "\u001b[32m"
-var cYellow = "\u001b[33m"
-var cBlue = "\u001b[34m"
-var cMagenta = "\u001b[35m"
-var cCyan = "\u001b[36m"
-var cWhite = "\u001b[37m"
+var cBlack			= "\u001b[30m"
+var cRed				= "\u001b[31m"
+var cGreen			= "\u001b[32m"
+var cYellow			= "\u001b[33m"
+var cBlue				= "\u001b[34m"
+var cMagenta		= "\u001b[35m"
+var cCyan				= "\u001b[36m"
+var cWhite			= "\u001b[37m"
 
-var cBlackBG = "\u001b[40m"
-var cRedBG = "\u001b[41m"
-var cGreenBG = "\u001b[42m"
-var cYellowBG = "\u001b[43m"
-var cBlueBG = "\u001b[44m"
-var cMagentaBG = "\u001b[45m"
-var cCyanBG = "\u001b[46m"
-var cWhiteBG = "\u001b[47m"
-// ========== ========== ========== ========== ==========
+var cBlackBG		= "\u001b[40m"
+var cRedBG			= "\u001b[41m"
+var cGreenBG		= "\u001b[42m"
+var cYellowBG		= "\u001b[43m"
+var cBlueBG			= "\u001b[44m"
+var cMagentaBG	= "\u001b[45m"
+var cCyanBG			= "\u001b[46m"
+var cWhiteBG		= "\u001b[47m"
+// ========== END: Golang Console Colors ========== ========== ========== ==========
 
 
 var appinfo = `
@@ -74,8 +70,6 @@ var appinfo = `
                              ` + cCyan + `..in Golang!` + cClr + `
   ` + cBlue + `=======================================` + cClr + `
 `
-
-
 
 
 // > go build&doitall-golang.exe
