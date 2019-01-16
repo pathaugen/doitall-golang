@@ -1,9 +1,13 @@
 
 Do it all! in Golang
 ====================
-[![CircleCI](https://circleci.com/gh/pathaugen/doitall-golang.svg?style=svg)](https://circleci.com/gh/pathaugen/doitall-golang)
-[![Build Status](https://travis-ci.com/pathaugen/doitall-golang.svg?branch=master)](https://travis-ci.com/pathaugen/doitall-golang)
+[![CircleCI Build Status](https://circleci.com/gh/pathaugen/doitall-golang.svg?style=svg)](https://circleci.com/gh/pathaugen/doitall-golang)
+[![TravisCI Build Status](https://travis-ci.com/pathaugen/doitall-golang.svg?branch=master)](https://travis-ci.com/pathaugen/doitall-golang)
+[![Build status](https://ci.appveyor.com/api/projects/status/2hm4g4of8d2k5of1/branch/master?svg=true)](https://ci.appveyor.com/project/PatrickHaugen/doitall-golang/branch/master)
+
 [![Coverage Status](https://coveralls.io/repos/github/pathaugen/doitall-golang/badge.svg?branch=master)](https://coveralls.io/github/pathaugen/doitall-golang?branch=master)
+[![Maintainability](https://api.codeclimate.com/v1/badges/4fa3e21b6359a2da09ce/maintainability)](https://codeclimate.com/github/pathaugen/doitall-golang/maintainability)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/4fa3e21b6359a2da09ce/test_coverage)](https://codeclimate.com/github/pathaugen/doitall-golang/test_coverage)
 
 Description
 -----------
