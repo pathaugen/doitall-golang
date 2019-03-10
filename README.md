@@ -45,7 +45,9 @@ Quick Start
      * GOPATH: C:\go-work
 3. Setup Git:
    * Install Git:
-   * x
+     * https://git-scm.com/
+   * Test Git Installation:
+     * > git --version
 x. Test Code:
    * > go test -v
    * xxx
